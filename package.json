@@ -1,15 +1,16 @@
 {
-  "name": "admincraft-module",
+  "name": "vue-module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vue-cli-service serve -mode development",
+    "build:app": "vue-cli-service build -mode production",
+    "build:module": "vue-cli-service build --target lib src/module.js"
   },
   "dependencies": {
     "core-js": "^3.3.2",
     "vue": "^2.6.10",
+    "vue-module-loader": "^1.0.1",
     "vue-router": "^3.1.3",
     "vuex": "^3.0.1"
   },
@@ -24,9 +25,9 @@
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
-    "less": "^3.0.4",
-    "less-loader": "^5.0.0",
     "prettier": "^1.18.2",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.6.10"
   }
 }
