@@ -1,24 +1,3 @@
-# admincraft-module
+# vue-module
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+适用于[vue-module-loader](https://github.com/mqhe2007/vue-module-loader)的微前端模块工程
